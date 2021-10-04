@@ -1,0 +1,16 @@
+.general {
+    overflow: hidden;
+}
+
+.listContainer {
+    padding: 20px;
+    padding-bottom: 10px;
+}
+
+.icons {
+    float: left;
+}
+
+.title {
+    padding-left: 50px;
+}
