@@ -6,31 +6,34 @@ import style from './Skills.module.css';
 export default function Skills() {
     return (
         <div className={style.general}>
+            <h2 className={style.etiqueta}>Stack</h2>
             <div className={style.container}>
-                <h2 className={style.title}>
-                    {stack[0].type}
-                </h2>
+                <h3 className={style.title}>
+                    Front-end
+                </h3>
                 {stack[0].list?.map((front, i) => {
                     return (
                         <div className={style.indv}>
                             <img src={front.icon} alt='' />
-                            <h4 className={style.tecName}>{front.name}</h4>
+                            <h5 className={style.tecName}>
+                                {front.name}
+                            </h5>
                         </div>
                     )
                 })}
             </div>
 
             <div className={style.container}>
-                <h2 className={style.title}>
-                    {stack[1].type}
-                </h2>
+                <h3 className={style.title}>
+                    Back-end | DataBase
+                </h3>
                 {stack[1].list?.map((front, i) => {
                     return (
-                        <div className={front.name === 'ExpressJs' ? style.imgEx :  style.indv}>
+                        <div className={front.name === 'ExpressJs' ? style.indvEx :  style.indv}>
                             <img src={front.icon} alt='' className={style.img}/>
-                            <h4 className={front.name === 'ExpressJs' ? style.namEx : style.tecName}>
+                            <h5 className={front.name === 'ExpressJs' ? style.namEx : style.tecName}>
                                 {front.name}
-                            </h4>
+                            </h5>
                         </div>
                     )
                 })}
@@ -38,3 +41,8 @@ export default function Skills() {
         </div>
     )
 }
+
+/* 
+<div className={front.name === 'ExpressJs' ? style.indvEx :  style.indv}>
+<h5 className={front.name === 'ExpressJs' ? style.namEx : style.tecName}>
+*/
