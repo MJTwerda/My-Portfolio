@@ -2,16 +2,28 @@ import React from 'react';
 import Icon from '@mdi/react';
 import { mdiMovieOpenSettings, mdiHeadCogOutline  } from '@mdi/js';
 
+import style from './NavBar.module.css';
+import About from '../about/About';
+
 export default function NavBar() {
     return(
-        <div>
-            <Icon path={mdiMovieOpenSettings} 
-                size={1.5}
-                />
-            <Icon path={mdiHeadCogOutline}
-                size={1.5}
-                />
-            <h4>Navbar</h4>
+        <div className={style.general}>
+            <div className={style.listContainer}>
+                <div className={style.icons}>
+                    <Icon path={mdiMovieOpenSettings} 
+                        size={1.5}
+                        />
+                </div>
+                    <h3 className={style.title}>Projects</h3>
+            </div>
+            <div className={style.listContainer}>
+                <div className={style.icons}>
+                    <Icon path={mdiHeadCogOutline}
+                        size={1.5}
+                        />
+                </div>
+                    <h3 className={style.title}>Skills</h3>
+            </div>
         </div>
     )
 }

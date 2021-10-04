@@ -2,14 +2,17 @@ import React from "react";
 import NavBar from '../navBar/NavBar';
 import Body from "../body/Body";
 
-import image from '../utils/images/Perfil.jpeg';
+import style from './Home.module.css';
 
 export default function Home() {
     return(
-        <div>
-            <NavBar />
-            <img src={image} width='150' height='200' alt='' />
-            <Body />
+        <div className={style.container}>
+            <div className={style.nav}>
+                <NavBar />
+            </div>
+            <div className={style.body}>
+                <Body />
+            </div>
         </div>
     )
 }
