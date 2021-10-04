@@ -3,7 +3,6 @@ import About from '../about/About';
 import Skills from '../skills/Skills';
 import Avatar from '../avatar/Avatar';
 
-
 export default function Body() {
     return(
         <div>
@@ -12,6 +11,8 @@ export default function Body() {
             <Avatar />
             <hr />
             <Skills />
+            <hr />
+
         </div>
     )
 }
