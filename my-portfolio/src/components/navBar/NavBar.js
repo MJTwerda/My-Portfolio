@@ -3,7 +3,6 @@ import Icon from '@mdi/react';
 import { mdiMovieOpenSettings, mdiHeadCogOutline  } from '@mdi/js';
 
 import style from './NavBar.module.css';
-import About from '../about/About';
 
 export default function NavBar() {
     return(
@@ -16,6 +15,7 @@ export default function NavBar() {
                 </div>
                     <h3 className={style.title}>Projects</h3>
             </div>
+
             <div className={style.listContainer}>
                 <div className={style.icons}>
                     <Icon path={mdiHeadCogOutline}
