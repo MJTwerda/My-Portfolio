@@ -1,0 +1,31 @@
+.general {
+    display:flexbox;
+    padding: 20px;
+}
+
+.container {
+    display: flex;
+    flex-wrap: wrap;
+    margin-bottom:50px;
+}
+
+.title {
+    padding-right: 200px;
+}
+
+.indv {
+    padding: 15px;
+    margin: 10px;
+}
+
+.tecName {
+    margin-top: 10px;
+}
+
+.imgEx {
+    margin-top: 30px;
+    padding-bottom: 40px;
+}
+.namEx {
+    margin-top: 18px;
+}
