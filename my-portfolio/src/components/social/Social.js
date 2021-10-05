@@ -6,7 +6,7 @@ import style from './Social.module.css';
 export default function Social() {
     return(
         <div>
-            <h2>My social World: </h2>
+            <h2 className={style.title}>My social World: </h2>
             <ul className={style.general}>
                 {socialData?.map((data, i) => {
                     return (

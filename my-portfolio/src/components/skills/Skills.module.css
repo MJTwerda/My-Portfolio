@@ -6,6 +6,8 @@
 .etiqueta {
     display: flex;
     justify-content: center;
+    font-family: Architects Daughter;
+    font-weight: 600;
 }
 
 .container {
@@ -17,6 +19,8 @@
     display: flex;
     align-self: center;
     padding-right: 100px;
+    font-family: Architects Daughter;
+    font-weight: 600;
 }
 
 .indv {
@@ -30,6 +34,8 @@
 
 .tecName {
     margin-top: 10px;
+    font-family: Architects Daughter;
+    font-weight: 600;
 }
 
 .indvEx {
@@ -42,4 +48,6 @@
 }
 .namEx {
     margin-top: 25px;
+    font-family: Architects Daughter;
+    font-weight: 600;
 }

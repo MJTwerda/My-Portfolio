@@ -1,4 +1,4 @@
-export const projects = [
+export const projectsDetail = [
     {
         name: 'Movies Library',
         description: '',
