@@ -1,16 +1,16 @@
 export const projects = [
     {
-        name: '',
+        name: 'Movies Library',
         description: '',
         url: '',
         image: '',
-        tecnologies: '',
+        tecnologies: ['react', 'redux', 'css'],
     },
     {
-        name: '',
+        name: 'VideoGames Library',
         description: '',
         url: '',
         image: '',
-        tecnologies: '',
+        tecnologies: ['react', 'redux', 'postgresql', 'express', 'css'],
     },
 ]
