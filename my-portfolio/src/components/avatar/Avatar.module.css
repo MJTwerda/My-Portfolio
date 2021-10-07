@@ -3,3 +3,8 @@
     flex-direction: row-reverse;
     justify-content: space-between;
 }
+
+.img {
+    width: 450px; 
+    height: 350px;
+}
