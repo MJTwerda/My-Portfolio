@@ -1,9 +1,32 @@
+.individualProject {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding-bottom: 0px;
+}
+
 .title {
+    display: flex;
+    justify-content: center;
     font-family: Architects Daughter;
     font-weight: 600;
+    
+}
+
+.urlProject {
+    text-decoration: none;
 }
 
 .titleProject {
     font-family: Architects Daughter;
     font-weight: 400;
+    margin-top: 150px;
+    color: black;
+}
+
+.img {
+    width: 690px;
+    height: 490px;
+    margin-left: 250px;
+    padding-bottom: 0px;
 }
