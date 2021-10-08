@@ -5,7 +5,7 @@ import style from './ContactMe.module.css';
 
 export default function ContactMe() {
     return (
-        <div>
+        <div id='contactMe'>
             <h2 className={style.title}>Contact me </h2>
             <ul className={style.general}>
                 {socialData?.map((platform, i) => {

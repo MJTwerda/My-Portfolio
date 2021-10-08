@@ -5,7 +5,7 @@ import style from './Projects.module.css';
 
 export default function Projects() {
     return(
-        <div>
+        <div id='projects'>
             <h2 className={style.title}>My Projects </h2>
             {projectsDetail?.map((project, i) => {
                 return (

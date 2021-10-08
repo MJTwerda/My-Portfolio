@@ -11,6 +11,11 @@
     float: left;
 }
 
+.link {
+    text-decoration: none;
+    color: black;
+}
+
 .title {
     padding-left: 50px;
     line-height: 4px;

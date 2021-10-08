@@ -5,7 +5,7 @@ import style from './Skills.module.css';
 
 export default function Skills() {
     return (
-        <div className={style.general}>
+        <div className={style.general} id='skills'>
             <h2 className={style.etiqueta}>Stack</h2>
             <div className={style.container}>
                 <h3 className={style.title}>
