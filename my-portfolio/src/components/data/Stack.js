@@ -22,6 +22,10 @@ export const stack = [
                 name: 'Redux',
                 icon: require('../utils/icons/redux-original.png').default,
             },
+            {
+                name: 'TypeScript',
+                icon: require('../utils/icons/typescript-original.png').default,
+            },
         ]
     },
     {
@@ -50,10 +54,6 @@ export const stack = [
             {
                 name: 'Swagger',
                 icon: require('../utils/icons/swagger-original.png').default,
-            },
-            {
-                name: 'TypeScript',
-                icon: require('../utils/icons/typescript-original.png').default,
             },
         ]
     },
