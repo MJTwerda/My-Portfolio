@@ -4,6 +4,7 @@ import Skills from '../skills/Skills';
 import Avatar from '../avatar/Avatar';
 import Projects from '../projects/Projects';
 import ContactMe from '../contact/ContactMe';
+import Experience from '../experience/Experience';
 
 export default function Body() {
     return(
@@ -11,6 +12,8 @@ export default function Body() {
             <About />
             <hr />
             <Avatar />
+            <hr />
+            <Experience />
             <hr />
             <Skills />
             <hr />

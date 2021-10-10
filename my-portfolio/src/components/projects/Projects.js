@@ -10,9 +10,14 @@ export default function Projects() {
             {projectsDetail?.map((project, i) => {
                 return (
                     <div key={i} className={style.individualProject}>
-                        <h2 className={style.titleProject}>{project.name}</h2>
+                        <div>
+                            <h2 className={style.titleProject}>{project.name}</h2>
+                            {project.tecnologies?.map((tec, i) => {
+                                <p key={i}>{tec}</p>
+                            })}
+                        </div>
                         <a href={project.url} className={style.urlProject}>
-                            <img src={project.image} alt='No tiene' className={style.img}/>
+                            <img src={project.image} alt='' className={style.img}/>
                         </a>
                     </div>
                 )

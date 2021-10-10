@@ -1,6 +1,6 @@
 import React from 'react';
 import Icon from '@mdi/react';
-import { mdiMovieOpenSettings, mdiHeadCogOutline, mdiAlphaIBox } from '@mdi/js';
+import { mdiMovieOpenSettings, mdiHeadCogOutline, mdiAlphaIBox, mdiForum } from '@mdi/js';
 
 import style from './NavBar.module.css';
 
@@ -37,6 +37,17 @@ export default function NavBar() {
                             />
                     </div>
                         <h3 className={style.title}>Skills</h3>
+                </a>       
+            </div>
+
+            <div className={style.listContainer}>
+                <a href='#contactMe' className={style.link}>
+                    <div className={style.icons}>
+                        <Icon path={mdiForum}
+                            size={1.5}
+                            />
+                    </div>
+                        <h3 className={style.title}>Contact</h3>
                 </a>       
             </div>
         </div>
