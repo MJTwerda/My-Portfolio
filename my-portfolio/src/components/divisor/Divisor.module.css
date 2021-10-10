@@ -1,0 +1,7 @@
+.div {
+    height: 5px;
+    width: 100vh;
+    border-radius: 15px;
+    background: linear-gradient(to left, rgb(168, 245, 241), rgb(4, 250, 209) 10%, rgb(250, 184, 4) 100%);
+    margin-bottom: 20px;
+}

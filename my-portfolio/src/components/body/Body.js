@@ -5,22 +5,23 @@ import Avatar from '../avatar/Avatar';
 import Projects from '../projects/Projects';
 import ContactMe from '../contact/ContactMe';
 import Experience from '../experience/Experience';
+import Divisor from '../divisor/Divisor';
 
 export default function Body() {
     return(
         <div>
             <About />
-            <hr />
+                <Divisor />
             <Avatar />
-            <hr />
+                <Divisor />
             <Experience />
-            <hr />
+                <Divisor />
             <Skills />
-            <hr />
+                <Divisor />
             <Projects />
-            <hr />
+                <Divisor />
             <ContactMe />
-            <hr />
+                <Divisor />
         </div>
     )
 }
