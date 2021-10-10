@@ -6,7 +6,10 @@
     position: fixed;
     height: 100%;
     width: 65px;
-    background-color: brown;
+    /* background-color: brown; */
+    /* background-color: rgb(203, 206, 32); */
+    background: linear-gradient(to bottom, rgb(204, 168, 245), rgb(113, 32, 206) 10%, rgb(4, 250, 209) 100%);
+    /* background-color: rgb(113, 32, 206); */
     margin-bottom: 300px;
 }
 .nav:hover {
