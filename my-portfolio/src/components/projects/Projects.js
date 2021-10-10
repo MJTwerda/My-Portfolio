@@ -13,7 +13,7 @@ export default function Projects() {
                         <div>
                             <h2 className={style.titleProject}>{project.name}</h2>
                             {project.tecnologies?.map((tec, i) => {
-                                <p key={i}>{tec}</p>
+                                return <p className={style.tecnologies} key={i}>{tec}</p>
                             })}
                         </div>
                         <a href={project.url} className={style.urlProject}>
