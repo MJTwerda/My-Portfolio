@@ -4,6 +4,7 @@
 
 .listContainer {
     padding: 20px;
+    padding-left: 15px;
     padding-bottom: 10px;
 }
 
@@ -21,4 +22,5 @@
     line-height: 4px;
     font-family: Architects Daughter;
     font-weight: 400;
+    font-size: medium;
 }
