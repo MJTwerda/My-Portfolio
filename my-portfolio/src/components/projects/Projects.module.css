@@ -20,6 +20,14 @@
     color: black;
 }
 
+.tecnologies {
+    font-family: Architects Daughter;
+    font-weight: 400;
+    background-color: rgb(149, 64, 230);
+    color: white;
+    padding: 7px;
+}
+
 .urlProject {
     text-decoration: none;
 }
