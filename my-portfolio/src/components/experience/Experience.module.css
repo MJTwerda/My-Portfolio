@@ -15,6 +15,7 @@
 .titleImg {
     margin-top: 100px;
     margin-bottom: 100px;
+    margin-right: 30px;
     width: 200px;
     height: 100px;
 }
@@ -23,10 +24,26 @@
     text-decoration: none;
 }
 
-
 .img {
     width: 690px;
     height: 490px;
     margin-left: 250px;
     padding-bottom: 0px;
+}
+
+.date {
+    font-family: Architects Daughter;
+    font-weight: 200;
+}
+
+.descriptions {
+    font-family: Architects Daughter;
+    font-weight: 600;
+}
+
+.itemsDescriptions {
+    font-family: Architects Daughter;
+    font-weight: 600;
+    background: linear-gradient(to right, white, rgb(253, 253, 5) 10%, white 100% );
+    /* background: linear-gradient(to right, white, rgb(245, 5, 253) 10%, white 100% ); */
 }
