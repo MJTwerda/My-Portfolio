@@ -23,9 +23,12 @@
 .tecnologies {
     font-family: Architects Daughter;
     font-weight: 400;
-    background-color: rgb(149, 64, 230);
+    width: 90px;
+    /* background: linear-gradient(to right, rgb(245, 221, 168), rgb(250, 184, 4) 2%, rgb(4, 250, 209) 150%); */
+    background-color: rgb(219, 161, 2);
     color: white;
     padding: 7px;
+    border-radius: 10px;
 }
 
 .urlProject {
