@@ -19,17 +19,6 @@ export default function NavBar() {
             </div>
 
             <div className={style.listContainer}>
-                <a href='#projects' className={style.link}>
-                    <div className={style.icons}>
-                        <Icon path={mdiMovieOpenSettings} 
-                            size={1.5}
-                            />
-                    </div>
-                        <h3 className={style.title}>Projects</h3>
-                </a>
-            </div>
-
-            <div className={style.listContainer}>
                 <a href='#skills' className={style.link}>
                     <div className={style.icons}>
                         <Icon path={mdiHeadCogOutline}
@@ -41,14 +30,14 @@ export default function NavBar() {
             </div>
 
             <div className={style.listContainer}>
-                <a href='#contactMe' className={style.link}>
+                <a href='#projects' className={style.link}>
                     <div className={style.icons}>
-                        <Icon path={mdiForum}
+                        <Icon path={mdiMovieOpenSettings} 
                             size={1.5}
                             />
                     </div>
-                        <h3 className={style.title}>Contact</h3>
-                </a>       
+                        <h3 className={style.title}>Projects</h3>
+                </a>
             </div>
 
             <div className={style.listContainer}>
@@ -60,6 +49,17 @@ export default function NavBar() {
                     </div>
                         <h3 className={style.title}>Experience</h3>
                 </a>
+            </div>
+
+            <div className={style.listContainer}>
+                <a href='#contactMe' className={style.link}>
+                    <div className={style.icons}>
+                        <Icon path={mdiForum}
+                            size={1.5}
+                            />
+                    </div>
+                        <h3 className={style.title}>Contact</h3>
+                </a>       
             </div>
         </div>
     )

@@ -20,6 +20,12 @@
     padding-top: 40px;
 }
 
+.btnGral {
+    display: flex;
+    justify-content: flex-end;
+    margin-right: 40px;
+}
+
 /* ----------------- DARK MODE -------- */
 
 .bodyDark {

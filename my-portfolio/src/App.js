@@ -22,7 +22,9 @@ function App() {
             <NavBar />
         </div>
         <div className={background === 'light' ? style.body : style.bodyDark}>
-            <Button setToLight={changeToLight} setToDark={changeToDark}/>
+            <div className={style.btnGral}>
+              <Button setToLight={changeToLight} setToDark={changeToDark}/>
+            </div>
             <Body mode={background}/>
         </div>
     </div>
