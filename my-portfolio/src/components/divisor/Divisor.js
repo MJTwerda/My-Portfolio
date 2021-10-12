@@ -2,8 +2,8 @@ import React from 'react';
 
 import style from './Divisor.module.css';
 
-export default function Divisor() {
+export default function Divisor({mode}) {
     return(
-        <div className={style.div}></div>
+        <div className={mode === 'light' ? style.div : style.divDark}></div>
     )
 }

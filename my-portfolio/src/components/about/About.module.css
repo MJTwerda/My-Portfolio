@@ -1,4 +1,13 @@
 .title {
     font-family: Architects Daughter;
     font-weight: 600;
+    color: black;
+} 
+
+/* ------------ DARK MODE --------------- */
+
+.titleDark {
+    font-family: Architects Daughter;
+    font-weight: 600;
+    color: whitesmoke;
 } 

@@ -7,21 +7,21 @@ import ContactMe from '../contact/ContactMe';
 import Experience from '../experience/Experience';
 import Divisor from '../divisor/Divisor';
 
-export default function Body() {
+export default function Body({mode}) {
     return(
         <div>
-            <About />
-                <Divisor />
-            <Avatar />
-                <Divisor />
-            <Experience />
-                <Divisor />
-            <Skills />
-                <Divisor />
-            <Projects />
-                <Divisor />
-            <ContactMe />
-                <Divisor />
+            <About mode={mode} />
+                <Divisor mode={mode}/>
+            <Avatar mode={mode} />
+                <Divisor mode={mode}/>
+            <Experience mode={mode} />
+                <Divisor mode={mode}/>
+            <Skills mode={mode} />
+                <Divisor mode={mode}/>
+            <Projects mode={mode} />
+                <Divisor mode={mode}/>
+            <ContactMe mode={mode} />
+                <Divisor mode={mode}/>
         </div>
     )
 }

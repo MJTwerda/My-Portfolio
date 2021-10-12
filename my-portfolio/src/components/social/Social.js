@@ -3,16 +3,18 @@ import {socialData} from '../data/SocialData';
 
 import style from './Social.module.css';
 
-export default function Social() {
+export default function Social({mode}) {
     return(
         <div id='social'>
-            <h2 className={style.title}>My social World: </h2>
+            <h2 className={mode === 'light' ? style.title : style.titleDark}>
+                Mi Mundo Social: 
+            </h2>
             <ul className={style.general}>
                 {socialData?.map((data, i) => {
                     return (
                         <li key={i} className={style.lista}>
                             <a href={data.url}>
-                                <img src={data.logo}  alt='' />    
+                            <img src={data.logo} alt='' />
                             </a>
                         </li>
                     )}

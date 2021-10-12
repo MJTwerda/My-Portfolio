@@ -13,3 +13,11 @@
     list-style: none;
     margin-right: 20px;
 }
+
+/* -------- DARK MODE -------- */
+
+.titleDark {
+    font-family: Architects Daughter;
+    font-weight: 600;
+    color: whitesmoke;
+} 

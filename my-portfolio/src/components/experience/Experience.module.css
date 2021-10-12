@@ -42,8 +42,31 @@
 }
 
 .itemsDescriptions {
-    width: 110vh;
+    width: 120vh;
     font-family: Architects Daughter;
     font-weight: 600;
     background: linear-gradient(to right, white, rgb(253, 253, 5) 10%, rgb(163, 240, 240) 100% );
+    color: black;
+}
+
+/* ------------ DARK MODE ------- */
+
+.titleDark {
+    display: flex;
+    justify-content: center;
+    font-family: Architects Daughter;
+    font-weight: 600;
+    color:whitesmoke;
+}
+
+.dateDark {
+    font-family: Architects Daughter;
+    font-weight: 200;
+    color: whitesmoke;
+}
+
+.desDark {
+    font-family: Architects Daughter;
+    font-weight: 600;
+    color: whitesmoke;
 }

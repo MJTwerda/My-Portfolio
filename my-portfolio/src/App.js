@@ -1,14 +1,32 @@
-/* import logo from './logo.svg';
-import './App.css'; */
-import React from "react";
-import Home from "./components/home/Home";
+import React, {useState} from "react";
+//import Home from "./components/home/Home";
+import NavBar from './components/navBar/NavBar';
+import Body from "./components/body/Body";
+import Button from './components/buttonMod/Button';
+
+import style from './App.module.css';
 
 function App() {
-  return (
-    <div>
-      <Home />
+  const [background, setBackground] = useState('light');
+
+  function changeToDark() {
+    setBackground('dark');
+  }
+  function changeToLight() {
+    setBackground('light');
+  }
+
+  return(
+    <div className={style.container}>
+        <div className={style.nav}>
+            <NavBar />
+        </div>
+        <div className={background === 'light' ? style.body : style.bodyDark}>
+            <Button setToLight={changeToLight} setToDark={changeToDark}/>
+            <Body mode={background}/>
+        </div>
     </div>
-  );
+)
 }
 
 export default App;

@@ -39,10 +39,10 @@ export const stack = [
                 name: 'PostgreSQL',
                 icon: require('../utils/icons/postgresql-original.png').default,
             },
-            {
+            /* {
                 name: 'ExpressJs',
                 icon: require('../utils/icons/expressjs-original.png').default,
-            },
+            }, */
             {
                 name: 'Sequelize',
                 icon: require('../utils/icons/sequelize-original.png').default,

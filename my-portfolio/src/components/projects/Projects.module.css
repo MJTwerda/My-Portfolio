@@ -10,7 +10,6 @@
     justify-content: center;
     font-family: Architects Daughter;
     font-weight: 600;
-    
 }
 
 .titleProject {
@@ -40,4 +39,21 @@
     height: 490px;
     margin-left: 250px;
     padding-bottom: 0px;
+}
+
+/* ------------ DARK MODE --------- */
+
+.titleDark {
+    display: flex;
+    justify-content: center;
+    font-family: Architects Daughter;
+    font-weight: 600;
+    color: whitesmoke;
+}
+
+.titleProDark {
+    font-family: Architects Daughter;
+    font-weight: 400;
+    margin-top: 150px;
+    color: whitesmoke;
 }
