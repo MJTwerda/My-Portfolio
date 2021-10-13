@@ -12,7 +12,7 @@ export default function Experience({mode}) {
                 {experience?.map((exp, i) => {
                     return (
                         <div key={i} className={style.individualProject}>
-                            <a href={exp.url} className={style.urlProject} >
+                            <a href={exp.url} target='_blank' className={style.urlProject} rel="noopener noreferrer" >
                                 <img src={exp.company} className={style.titleImg} alt=''/>
                             </a>
                             <div className={style.desContainer}>

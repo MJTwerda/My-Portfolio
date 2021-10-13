@@ -13,7 +13,7 @@ export default function ContactMe({mode}) {
                 {socialData?.map((platform, i) => {
                     return (
                         <li key={i} className={style.lista}>
-                            <a href={platform.url}>
+                            <a href={platform.url} target='_blank' rel="noopener noreferrer">
                                 <img src={platform.logo} alt='' />
                             </a> 
                         </li>

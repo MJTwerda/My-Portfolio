@@ -13,7 +13,7 @@ export default function Social({mode}) {
                 {socialData?.map((data, i) => {
                     return (
                         <li key={i} className={style.lista}>
-                            <a href={data.url}>
+                            <a href={data.url} target='_blank' rel="noopener noreferrer">
                             <img src={data.logo} alt='' />
                             </a>
                         </li>

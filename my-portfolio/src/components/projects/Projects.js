@@ -23,7 +23,7 @@ export default function Projects({mode}) {
                             </div>
                         </div>
                         <div className={style.imgContainer}>
-                            <a href={project.url} className={style.urlProject}>
+                            <a href={project.url} target='_blank' className={style.urlProject} rel="noopener noreferrer">
                                 <img src={project.image} alt='' className={style.img}/>
                             </a>
                         </div>
