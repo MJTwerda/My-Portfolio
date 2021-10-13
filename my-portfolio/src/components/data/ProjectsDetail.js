@@ -2,7 +2,7 @@ export const projectsDetail = [
     {
         name: 'Movies Library',
         description: '',
-        url: 'https://www.linkedin.com/feed/update/urn:li:activity:6849431877179318272/',
+        url: 'https://movies-library.vercel.app/',
         image: require('../utils/images/imgProMovies.png').default,
         tecnologies: ['React', 'Redux', 'CSS'],
     },
