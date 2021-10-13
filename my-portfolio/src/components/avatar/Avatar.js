@@ -7,8 +7,12 @@ import style from './Avatar.module.css';
 export default function Avatar({mode}) {
     return (
         <div className={style.general} id='avatar'>
-            <img src={image} alt='' className={style.img} />
-            <Social mode={mode}/>
+            <div className={style.imgContainer} >
+                <img src={image} alt='' className={style.img} />
+            </div>
+            <div className={style.social}>
+                <Social mode={mode}/>
+            </div>
         </div>
     )
 }

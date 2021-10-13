@@ -6,7 +6,6 @@
     position: fixed;
     height: 100%;
     width: 65px;
-    /* background: linear-gradient(to bottom, rgb(204, 168, 245), rgb(113, 32, 206) 10%, rgb(4, 250, 209) 100%); */
     background: linear-gradient(to bottom, rgb(168, 245, 241), rgb(4, 250, 209) 10%, rgb(250, 184, 4) 100%);
     margin-bottom: 300px;
 }
@@ -16,8 +15,11 @@
 }
 
 .body {
+    /* width: 100%;
+    max-width: 1100px; */
     padding-left: 165px;
     padding-top: 40px;
+    box-sizing: border-box;
 }
 
 .btnGral {
@@ -31,5 +33,35 @@
 .bodyDark {
     padding-left: 165px;
     padding-top: 40px;
+    box-sizing: border-box;
     background-color: black;
+}
+
+@media screen and (max-width: 670px) {
+    .body {
+        width: 90%;
+        height: auto;
+        padding-left: 80px;
+        padding-top: 0px;
+    }
+
+    .bodyDark {
+        width: 90%;
+        height: auto;
+        padding-left: 80px;
+        padding-top: 0px;
+    }
+
+    .nav {
+        height: 100%;
+        width: 55px;;
+        /* pointer-events: none; */
+    }
+    
+    .btnGral {
+        display: flex;
+        justify-content: flex-end;
+        margin-right: 40px;
+        margin-top: 60px;
+    }
 }

@@ -1,9 +1,14 @@
+.container {
+    width: 70%;
+}
+
 .title {
     font-family: Architects Daughter;
     font-weight: 400;
 }
 
 .general {
+    width: 70%;
     display: flex;
     justify-content: center;
 }
@@ -21,3 +26,12 @@
     font-weight: 400;
     color: whitesmoke;
 }
+
+/* @media screen and (max-width: 670px) {
+    .general {
+        width: 100%;
+        display: flex;
+        justify-content: center;
+    }
+    
+} */

@@ -5,7 +5,7 @@ import style from './Social.module.css';
 
 export default function Social({mode}) {
     return(
-        <div id='social'>
+        <div id='social' className={style.container}>
             <h2 className={mode === 'light' ? style.title : style.titleDark}>
                 Mi Mundo Social: 
             </h2>

@@ -5,7 +5,7 @@ import style from './Experience.module.css';
 
 export default function Experience({mode}) {
     return (
-        <div id='experience'>
+        <div id='experience' className={style.general}>
             <h2 className={mode === 'light' ? style.title : style.titleDark}>
                 Experiencia Laboral
             </h2>
@@ -15,7 +15,7 @@ export default function Experience({mode}) {
                             <a href={exp.url} className={style.urlProject} >
                                 <img src={exp.company} className={style.titleImg} alt=''/>
                             </a>
-                            <div>
+                            <div className={style.desContainer}>
                                 <p className={mode === 'light' ? style.date : style.dateDark}>
                                     {exp.date}
                                 </p>

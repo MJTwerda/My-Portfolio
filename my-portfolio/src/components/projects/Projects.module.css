@@ -1,8 +1,19 @@
+.general {
+    display: flex;
+    flex-direction: column;
+}
+
 .individualProject {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
-    padding-bottom: 0px;
+    width: 100%;
+}
+
+.container {
+    display: flexbox;
+    width: 30%;
+    height: auto;
 }
 
 .title {
@@ -15,30 +26,40 @@
 .titleProject {
     font-family: Architects Daughter;
     font-weight: 400;
-    margin-top: 150px;
     color: black;
+}
+
+.tecGral {
+    display:flex;
+    flex-direction: column;
 }
 
 .tecnologies {
     font-family: Architects Daughter;
     font-weight: 400;
     width: 90px;
-    /* background: linear-gradient(to right, rgb(245, 221, 168), rgb(250, 184, 4) 2%, rgb(4, 250, 209) 150%); */
     background-color: rgb(219, 161, 2);
     color: white;
     padding: 7px;
     border-radius: 10px;
 }
 
+.imgContainer {
+    display: flex;
+    align-self:center;
+    justify-content: center;
+}
+
 .urlProject {
     text-decoration: none;
+    width: auto;
+    height: auto;
+    margin-left: 250px;
 }
 
 .img {
     width: 690px;
     height: 490px;
-    margin-left: 250px;
-    padding-bottom: 0px;
 }
 
 /* ------------ DARK MODE --------- */
@@ -54,6 +75,64 @@
 .titleProDark {
     font-family: Architects Daughter;
     font-weight: 400;
-    margin-top: 150px;
+    /* margin-top: 150px; */
     color: whitesmoke;
+}
+
+@media screen and (max-width: 670px) {
+    .title {
+        width: 100%;
+        padding-bottom: 10px;
+    }
+
+    .titleDark {
+        width: 100%;
+        padding-bottom: 10px;
+    }
+
+    .individualProject {
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+    }
+
+    .container {
+        width: 100%;
+    }
+
+    .titleProject {
+        width: 100%;
+        margin-right: 50px;
+    }
+
+    .titleProDark {
+        width: 100%;
+        margin-right: 50px;
+    }
+
+    .tecGral {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        width: auto;
+        height: auto;
+        box-sizing: border-box;
+    }
+
+    .tecnologies {
+        height: 10%;
+        width: 20%;
+        margin: 5px;
+    }
+
+    .img {
+        align-self: flex-start;
+        width: 290px;
+        height: 190px;
+    }
+
+    .imgContainer {
+        align-self: flex-end;
+        
+    }
 }

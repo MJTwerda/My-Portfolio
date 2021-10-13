@@ -11,3 +11,13 @@
     font-weight: 600;
     color: whitesmoke;
 } 
+
+@media screen and (max-width: 670px) {
+    .title {
+        width: 90%;
+    }
+
+    .titleDark {
+        width: 90%;
+    }
+}

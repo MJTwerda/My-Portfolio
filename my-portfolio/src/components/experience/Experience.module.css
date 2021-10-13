@@ -1,3 +1,8 @@
+.general {
+    display:flexbox;
+    width: 100%;
+}
+
 .title {
     display: flex;
     justify-content: center;
@@ -22,13 +27,19 @@
 
 .urlProject {
     text-decoration: none;
+    height: 100%;
 }
 
-.img {
+/* .img {
     width: 690px;
     height: 490px;
     margin-left: 250px;
     padding-bottom: 0px;
+} */
+
+.desContainer {
+    width: 100%;
+    box-sizing: border-box;
 }
 
 .date {
@@ -69,4 +80,40 @@
     font-family: Architects Daughter;
     font-weight: 600;
     color: whitesmoke;
+}
+
+@media screen and (max-width: 670px) {
+    .title {
+        width: 100%;
+    }
+
+    .titleDark {
+        width: 100%;
+    }
+
+    .individualProject {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .titleImg {
+        margin-top: 20px;
+        margin-bottom: 10px;
+        padding-right: 70px;
+        width: 50%;
+        height: 80px;
+    }
+
+    .descriptions {
+        width: 80%;
+    }
+
+    .desDark {
+        width: 100%;
+    }
+
+    .itemsDescriptions {
+        width: 80%;
+        font-weight: 600;
+    }
 }
