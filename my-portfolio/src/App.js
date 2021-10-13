@@ -17,7 +17,7 @@ function App() {
   }
 
   return(
-    <div className={style.container}>
+    <div className={background === 'light' ? style.container : style.containerDark}>
         <div className={style.nav}>
             <NavBar />
         </div>
