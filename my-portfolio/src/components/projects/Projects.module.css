@@ -121,8 +121,9 @@
 
     .tecnologies {
         height: 10%;
-        width: 20%;
-        margin: 5px;
+        width: 33%;
+        margin: 2px;
+        flex-wrap: wrap;
     }
 
     .img {
