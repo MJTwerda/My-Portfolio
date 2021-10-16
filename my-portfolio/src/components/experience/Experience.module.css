@@ -105,7 +105,7 @@
     }
 
     .descriptions {
-        width: 80%;
+        width: 95%;
     }
 
     .desDark {
@@ -113,7 +113,7 @@
     }
 
     .itemsDescriptions {
-        width: 80%;
+        width: 95%;
         font-weight: 600;
     }
 }

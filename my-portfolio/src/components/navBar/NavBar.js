@@ -25,7 +25,7 @@ export default function NavBar() {
                             size={1.5}
                             />
                     </div>
-                        <h3 className={style.title}>Skills</h3>
+                        <h3 className={style.title}>Habilidades</h3>
                 </a>       
             </div>
 
@@ -36,7 +36,7 @@ export default function NavBar() {
                             size={1.5}
                             />
                     </div>
-                        <h3 className={style.title}>Projects</h3>
+                        <h3 className={style.title}>Proyectos</h3>
                 </a>
             </div>
 
@@ -47,7 +47,7 @@ export default function NavBar() {
                             size={1.5}
                             />
                     </div>
-                        <h3 className={style.title}>Experience</h3>
+                        <h3 className={style.title}>Experiencia</h3>
                 </a>
             </div>
 
@@ -58,7 +58,7 @@ export default function NavBar() {
                             size={1.5}
                             />
                     </div>
-                        <h3 className={style.title}>Contact</h3>
+                        <h3 className={style.title}>Contactame</h3>
                 </a>       
             </div>
         </div>
