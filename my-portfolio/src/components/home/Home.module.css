@@ -44,7 +44,7 @@
 
 @media screen and (max-width: 670px) {
     .body {
-        width: 100%;
+        width: 95%;
         height: auto;
         padding-left: 120px;
         padding-top: 0px;
@@ -58,8 +58,9 @@
     }
 
     .nav {
-        height: 95%;
-        width: 46px;;
+        height: 75%;
+        width: 46px;
+        border-bottom-right-radius: 10px;
         /* pointer-events: none; */
     }
     
