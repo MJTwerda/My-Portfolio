@@ -44,29 +44,29 @@
 
 @media screen and (max-width: 670px) {
     .body {
-        width: 90%;
+        width: 100%;
         height: auto;
-        padding-left: 80px;
+        padding-left: 120px;
         padding-top: 0px;
     }
 
     .bodyDark {
-        width: 90%;
+        width: 95%;
         height: auto;
-        padding-left: 80px;
+        padding-left: 120px;
         padding-top: 0px;
     }
 
     .nav {
-        height: 100%;
-        width: 55px;;
+        height: 95%;
+        width: 46px;;
         /* pointer-events: none; */
     }
     
     .btnGral {
         display: flex;
         justify-content: flex-end;
-        margin-right: 40px;
-        margin-top: 60px;
+        margin-right: 10px;
+        margin-top: 10px;
     }
 }
