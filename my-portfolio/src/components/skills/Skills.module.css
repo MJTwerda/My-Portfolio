@@ -5,8 +5,8 @@
 .etiqueta {
     display: flex;
     justify-content: center;
-    font-family: Architects Daughter;
-    font-weight: 600;
+    font-family: BioRhyme;
+    font-weight: 300;
     padding-bottom: 30px;
 }
 
@@ -21,8 +21,8 @@
     align-self: center;
     padding-right: 100px;
     /* padding-bottom: 100px; */
-    font-family: Architects Daughter;
-    font-weight: 600;
+    font-family: BioRhyme;
+    font-weight: 400;
 }
 
 .indv {
@@ -37,8 +37,8 @@
 .tecName {
     margin-top: 10px;
     margin-bottom: 10px;
-    font-family: Architects Daughter;
-    font-weight: 600;
+    font-family: BioRhyme;
+    font-weight: 300;
 }
 
 .indvEx {
@@ -51,7 +51,7 @@
 }
 .namEx {
     margin-top: 25px;
-    font-family: Architects Daughter;
+    font-family: BioRhyme;
     font-weight: 600;
 }
 
@@ -60,8 +60,8 @@
 .etiquetaDark {
     display: flex;
     justify-content: center;
-    font-family: Architects Daughter;
-    font-weight: 600;
+    font-family: BioRhyme;
+    font-weight: 300;
     padding-bottom: 30px;
     color: whitesmoke;
 }
@@ -71,16 +71,16 @@
     align-self: center;
     padding-right: 100px;
     /* padding-bottom: 100px; */
-    font-family: Architects Daughter;
-    font-weight: 600;
+    font-family: BioRhyme;
+    font-weight: 400;
     color: whitesmoke;
 }
 
 .tecNameDark {
     margin-top: 10px;
     margin-bottom: 10px;
-    font-family: Architects Daughter;
-    font-weight: 600;
+    font-family: BioRhyme;
+    font-weight: 300;
     color: whitesmoke;
 }
 

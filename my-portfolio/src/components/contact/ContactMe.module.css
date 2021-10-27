@@ -1,6 +1,6 @@
 .title {
-    font-family: Architects Daughter;
-    font-weight: 600;
+    font-family: BioRhyme;
+    font-weight: 300;
 } 
 
 .general {
@@ -17,7 +17,7 @@
 /* -------- DARK MODE -------- */
 
 .titleDark {
-    font-family: Architects Daughter;
-    font-weight: 600;
+    font-family: BioRhyme;
+    font-weight: 300;
     color: whitesmoke;
 } 

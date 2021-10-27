@@ -7,7 +7,7 @@ export default function Skills({mode}) {
     return (
         <div className={style.general} id='skills'>
             <h2 className={mode === 'light' ? style.etiqueta : style.etiquetaDark}>
-                Habilidades
+                Habilidades Tecnológicas
             </h2>
             <div className={style.container}>
                 <h3 className={mode === 'light' ? style.title : style.titleDark}>

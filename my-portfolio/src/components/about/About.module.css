@@ -1,14 +1,14 @@
 .title {
-    font-family: Architects Daughter;
-    font-weight: 600;
+    font-family: BioRhyme, serif;
+    font-weight: 400;
     color: black;
 } 
 
 /* ------------ DARK MODE --------------- */
 
 .titleDark {
-    font-family: Architects Daughter;
-    font-weight: 600;
+    font-family: BioRhyme, serif;
+    font-weight: 400;
     color: whitesmoke;
 } 
 

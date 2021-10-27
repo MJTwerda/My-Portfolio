@@ -6,8 +6,8 @@
 .title {
     display: flex;
     justify-content: center;
-    font-family: Architects Daughter;
-    font-weight: 600;
+    font-family: BioRhyme;
+    font-weight: 300;
 }
 
 .individualProject {
@@ -43,19 +43,19 @@
 }
 
 .date {
-    font-family: Architects Daughter;
+    font-family: BioRhyme;
     font-weight: 200;
 }
 
 .descriptions {
-    font-family: Architects Daughter;
-    font-weight: 600;
+    font-family: BioRhyme;
+    font-weight: 400;
 }
 
 .itemsDescriptions {
     width: 120vh;
-    font-family: Architects Daughter;
-    font-weight: 600;
+    font-family: BioRhyme;
+    font-weight: 400;
     background: linear-gradient(to right, white, rgb(253, 253, 5) 10%, rgb(163, 240, 240) 100% );
     color: black;
 }
@@ -65,20 +65,20 @@
 .titleDark {
     display: flex;
     justify-content: center;
-    font-family: Architects Daughter;
-    font-weight: 600;
+    font-family: BioRhyme;
+    font-weight: 300;
     color:whitesmoke;
 }
 
 .dateDark {
-    font-family: Architects Daughter;
+    font-family: BioRhyme;
     font-weight: 200;
     color: whitesmoke;
 }
 
 .desDark {
-    font-family: Architects Daughter;
-    font-weight: 600;
+    font-family: BioRhyme;
+    font-weight: 300;
     color: whitesmoke;
 }
 
