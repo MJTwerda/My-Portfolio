@@ -2,10 +2,6 @@
 
 .env
 
-/src/components/data
-/src/components/utils
-/src/components/experience
-
 # dependencies
 /node_modules
 /.pnp
