@@ -4,7 +4,7 @@
 
 .listContainer {
     padding: 20px;
-    padding-left: 15px;
+    padding-left: 10px;
     padding-bottom: 10px;
 }
 
@@ -18,9 +18,9 @@
 }
 
 .title {
-    padding-left: 50px;
-    line-height: 4px;
-    font-family: Architects Daughter;
+    padding-left: 40px;
+    line-height: 2px;
+    font-family: BioRhyme;
     font-weight: 400;
     font-size: medium;
 }

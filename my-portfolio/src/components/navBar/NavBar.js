@@ -11,7 +11,7 @@ export default function NavBar() {
                 <a href='#about' className={style.link}>    
                     <div className={style.icons}>
                             <Icon path={mdiAlphaIBox} 
-                                size={1.5}
+                                size={1.2}
                                 />
                     </div>
                         <h3 className={style.title}>Info</h3>
@@ -22,7 +22,7 @@ export default function NavBar() {
                 <a href='#skills' className={style.link}>
                     <div className={style.icons}>
                         <Icon path={mdiHeadCogOutline}
-                            size={1.5}
+                            size={1.2}
                             />
                     </div>
                         <h3 className={style.title}>Habilidades</h3>
@@ -33,7 +33,7 @@ export default function NavBar() {
                 <a href='#projects' className={style.link}>
                     <div className={style.icons}>
                         <Icon path={mdiMovieOpenSettings} 
-                            size={1.5}
+                            size={1.2}
                             />
                     </div>
                         <h3 className={style.title}>Proyectos</h3>
@@ -44,7 +44,7 @@ export default function NavBar() {
                 <a href='#experience' className={style.link}>
                     <div className={style.icons}>
                         <Icon path={mdiCodeJson} 
-                            size={1.5}
+                            size={1.2}
                             />
                     </div>
                         <h3 className={style.title}>Experiencia</h3>
@@ -55,7 +55,7 @@ export default function NavBar() {
                 <a href='#contactMe' className={style.link}>
                     <div className={style.icons}>
                         <Icon path={mdiForum}
-                            size={1.5}
+                            size={1.2}
                             />
                     </div>
                         <h3 className={style.title}>Contactame</h3>
