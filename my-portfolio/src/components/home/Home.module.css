@@ -8,15 +8,18 @@
     width: 50px;
     background: linear-gradient(to bottom, rgb(168, 245, 241), rgb(4, 250, 209) 10%, rgb(250, 184, 4) 100%);
     margin-bottom: 300px;
+    transition-property: width;
+    transition-duration: 500ms;
 }
 .nav:hover {
     width: 158px;
+    /* transition: width 0.5s;
     -webkit-transition: width 0.5s;
+    -moz-transition: width 0.5s;
+    -o-transition: width 0.5s; */
 }
 
 .body {
-    /* width: 100%;
-    max-width: 1100px; */
     padding-left: 165px;
     padding-top: 40px;
     box-sizing: border-box;
