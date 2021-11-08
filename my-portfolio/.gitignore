@@ -2,6 +2,7 @@
 
 .env
 
+/services
 # dependencies
 /node_modules
 /.pnp
