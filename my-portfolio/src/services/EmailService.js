@@ -1,19 +1,26 @@
-const sgMail = require('@sendgrid/mail');
-sgMail.setApiKey(process.env.SENDGRID_API_KEY)
+import React, { useState } from 'react';
 
-const msg = {
-    to: 'mauriciotwerda@gmail.com', // Change to your recipient
-    from: 'dronm27a.z@gmail.com', // Change to your verified sender
-    subject: 'Sending with SendGrid is Fun',
-    text: 'and easy to do anywhere, even with Node.js',
-    html: '<strong>and easy to do anywhere, even with Node.js</strong>',
+export default function EmailService() {
+  const [email, setEmail] = useState({from: '', motive: '', text: ''});
+
+  const handleChange = (e) => {
+    setEmail({...email, [e.target.name]: e.target.value});
+  }
+
+  const handleSubmit = (e) => {
+    e.preventDefault();
+    alert({email});
+    setEmail({from: '', motive: '', text: ''});
+  }
+
+  return(
+    <div>
+      <form onSubmit={handleSubmit}>
+        <input type='text' name={'from'} value={email.from} onChange={handleChange} placeholder='Tu correo electrónico'/>
+        <input type='text' name={'motive'} value={email.motive} onChange={handleChange} placeholder='Motivo de contacto'/>
+        <input type='text' name={'text'} value={email.text} onChange={handleChange} placeholder='Tu mensaje'/>
+        <input type='submit' value='enviar' onSubmit={handleSubmit}/>
+      </form>
+    </div>
+  )
 }
-
-sgMail
-  .send(msg)
-  .then(() => {
-    console.log('Email sent')
-  })
-  .catch((error) => {
-    console.error(error)
-  })

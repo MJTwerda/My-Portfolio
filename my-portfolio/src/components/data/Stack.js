@@ -62,50 +62,63 @@ export const stack = [
 export const imageStack = [
     {
         icon: require('../utils/icons/javascript-original.png').default,
-        position: 0
+        position: 0,
+        name: 'javascript',
     },
     {
         icon: require('../utils/icons/html-original.png').default,
-        position: 1
+        position: 1,
+        name: 'html',
     },
     {
         icon: require('../utils/icons/css-original.png').default,
-        position: 2
+        position: 2,
+        name: 'css',
     },
     {
         icon: require('../utils/icons/react-original.png').default,
-        position: 3
+        position: 3,
+        name: 'react',
     },
     {
         icon: require('../utils/icons/redux-original.png').default,
-        position: 4
+        position: 4,
+        name: 'redux',
     },
     {
         icon: require('../utils/icons/typescript-original.png').default,
-        position: 5
+        position: 5,
+        name: 'typescript',
     },
     {
         icon: require('../utils/icons/nodejs-original.png').default,
-        position: 6
+        position: 6,
+        name: 'node',
     },
     {
         icon: require('../utils/icons/postgresql-original.png').default,
-        position: 7
+        position: 7,
+        name: 'postgresql',
     },
     {
-        icon: require('../utils/icons/socialIcons/github-logos1.png').default
+        icon: require('../utils/icons/socialIcons/github-logos1.png').default,
+        position: 8,
+        name: 'github',
     },
     {
         icon: require('../utils/icons/sequelize-original.png').default,
-        position: 8
+        position: 9,
+        name: 'sequelize',
     },
     {
         icon: require('../utils/icons/postman-original.png').default,
-        position: 9
+        position: 10,
+        name: 'postman',
     },
     {
         icon: require('../utils/icons/swagger-original.png').default,
-        position: 10
+        position: 11,
+        name: 'swagger',
     },
 ]
 
@@ -113,8 +126,8 @@ export const mixCards = (cards) => {
     let cardOnGame = [];
 
     for (let i = 0; i < cards.length; i++) {
-        cardOnGame.push({icon: cards[i].icon, position: cards[i].position})
-        cardOnGame.unshift({icon: cards[i].icon, position: cards[i].position})
+        cardOnGame.push({icon: cards[i].icon, position: cards[i].position, name: cards[i].name})
+        cardOnGame.unshift({icon: cards[i].icon, position: cards[i].position, name: cards[i].name + 'copy'})
     }
     cardOnGame.forEach(card => {
         card.position = Math.random();

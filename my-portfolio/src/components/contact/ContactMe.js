@@ -1,6 +1,8 @@
 import React from 'react';
 import {socialData} from '../data/SocialData';
 
+import EmailService from '../../services/EmailService';
+
 import style from './ContactMe.module.css';
 
 export default function ContactMe({mode}) {
@@ -20,6 +22,7 @@ export default function ContactMe({mode}) {
                     )}
                 )}
             </ul>
+            <EmailService />
         </div>
     )
 }

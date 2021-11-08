@@ -28,9 +28,18 @@ const styles = {
 
 export default function About({mode}) {
     const [open, setOpen] = useState(false)
+    const [clicked, setClicked] = useState({name:'', clic: false, nameTwo: '', clicTwo: false})
 
     const handleOpen = () => setOpen(true)
     const handleClose = () => setOpen(false)
+
+    const handleClick = (e) => {
+        e.preventDefault();
+        console.log(e)
+        clicked.name !== '' ? 
+        setClicked({name: e.target.value, clic: true}) :
+        setClicked({nameTwo: e.target.value, clicTwo: true})
+    };
 
     return(
         <div id='about'>
@@ -55,9 +64,9 @@ export default function About({mode}) {
                     </Typography>
                     <ImageList variant='masonry'  sx={{width: '100%', height: '100%'}} 
                                 cols={8} rows={1} >
-                        {deckCards.map((img, index) => (
+                        {deckCards.map((img, index) => (                          
                             <div key={index} className={style.containerCard}>
-                               <img
+                                <img
                                     src={img.icon}
                                     alt=''
                                     loading="lazy"
@@ -77,3 +86,41 @@ export default function About({mode}) {
         </div>
     )
 }
+
+/* 
+
+*/
+
+{/* <input name='submitImage' type='image' 
+                             src={clicked ? img.icon : imgBack} alt='' 
+                             onClick={() => handleClick()} 
+                             className={style.cardFront}/> */}
+
+
+/* 
+<label className={style.cardBack}>
+                                    <img
+                                        src={img.icon}
+                                        alt=''
+                                        loading="lazy"
+                                        className={style.cardBack}
+                                    />
+                                </label>
+                                <label className={style.cardFront}>
+                                    <img 
+                                        src={imgBack}
+                                        alt=''
+                                        loading="lazy"
+                                        className={style.cardFront}
+                                    />
+                                </label>
+*/
+
+/* 
+<form onSubmit={handleClick} key={index} className={style.containerCard}>
+                                    <input value={img.name} type='image' 
+                                    src={(clicked.name === img.name || clicked.nameTwo === img.name) ? img.icon : imgBack} alt='' 
+                                    onSubmit={handleClick} 
+                                    className={style.cardFront}/>
+                                 </form> 
+*/
