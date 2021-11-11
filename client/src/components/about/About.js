@@ -4,7 +4,6 @@ import Modal from '@mui/material/Modal'
 import Box from '@mui/material/Box';
 import Typography from '@mui/material/Typography';
 import ImageList from '@mui/material/ImageList';
-import ImageListItem from '@mui/material/ImageListItem';
 
 import {imageStack, mixCards} from '../data/Stack';
 
