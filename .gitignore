@@ -2,8 +2,6 @@
 
 .env
 config.js
-mailer/
-utils/
 
 # dependencies
 node_modules/
