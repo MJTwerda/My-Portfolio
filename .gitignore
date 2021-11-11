@@ -3,7 +3,6 @@
 .env
 config.js
 mailer/
-data/
 utils/
 
 # dependencies
