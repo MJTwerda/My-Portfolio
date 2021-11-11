@@ -1,0 +1,37 @@
+.container {
+    width: 70%;
+}
+
+.title {
+    font-family: BioRhyme;
+    font-weight: 200;
+}
+
+.general {
+    width: 70%;
+    display: flex;
+    justify-content: center;
+}
+
+.lista {
+    text-decoration: none;
+    list-style: none;
+    margin-right: 20px;
+}
+
+/* ---------- DARCK MODE --------- */
+
+.titleDark {
+    font-family: BioRhyme;
+    font-weight: 200;
+    color: whitesmoke;
+}
+
+/* @media screen and (max-width: 670px) {
+    .general {
+        width: 100%;
+        display: flex;
+        justify-content: center;
+    }
+    
+} */

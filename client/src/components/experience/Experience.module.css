@@ -1,0 +1,119 @@
+.general {
+    display:flexbox;
+    width: 100%;
+}
+
+.title {
+    display: flex;
+    justify-content: center;
+    font-family: BioRhyme;
+    font-weight: 300;
+}
+
+.individualProject {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding-bottom: 30px;
+}
+
+.titleImg {
+    margin-top: 100px;
+    margin-bottom: 100px;
+    padding-right: 70px;
+    width: 150px;
+    height: 80px;
+}
+
+.urlProject {
+    text-decoration: none;
+    height: 100%;
+}
+
+/* .img {
+    width: 690px;
+    height: 490px;
+    margin-left: 250px;
+    padding-bottom: 0px;
+} */
+
+.desContainer {
+    width: 100%;
+    box-sizing: border-box;
+}
+
+.date {
+    font-family: BioRhyme;
+    font-weight: 200;
+}
+
+.descriptions {
+    font-family: BioRhyme;
+    font-weight: 400;
+}
+
+.itemsDescriptions {
+    width: 120vh;
+    font-family: BioRhyme;
+    font-weight: 400;
+    background: linear-gradient(to right, white, rgb(253, 253, 5) 10%, rgb(163, 240, 240) 100% );
+    color: black;
+}
+
+/* ------------ DARK MODE ------- */
+
+.titleDark {
+    display: flex;
+    justify-content: center;
+    font-family: BioRhyme;
+    font-weight: 300;
+    color:whitesmoke;
+}
+
+.dateDark {
+    font-family: BioRhyme;
+    font-weight: 200;
+    color: whitesmoke;
+}
+
+.desDark {
+    font-family: BioRhyme;
+    font-weight: 300;
+    color: whitesmoke;
+}
+
+@media screen and (max-width: 670px) {
+    .title {
+        width: 100%;
+    }
+
+    .titleDark {
+        width: 100%;
+    }
+
+    .individualProject {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .titleImg {
+        margin-top: 20px;
+        margin-bottom: 10px;
+        padding-right: 70px;
+        width: 50%;
+        height: 80px;
+    }
+
+    .descriptions {
+        width: 95%;
+    }
+
+    .desDark {
+        width: 100%;
+    }
+
+    .itemsDescriptions {
+        width: 95%;
+        font-weight: 600;
+    }
+}
