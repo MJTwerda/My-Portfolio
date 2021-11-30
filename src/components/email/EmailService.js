@@ -4,6 +4,7 @@ import LoadingButton from '@mui/lab/LoadingButton';
 // import TextField from '@mui/material/TextField';
 import style from './EmailService.module.css';
 import SendIcon from '@mui/icons-material/Send';
+import Swal from 'sweetalert2';
 
 const axios = require('axios');
 
@@ -34,7 +35,16 @@ export default function EmailService({mode}) {
           axios.post('http://localhost:3001/sendEmail', values)
           .then((response) => {
             setSubmitting(false)
-            alert('Email enviado')
+            //alert('Email enviado')
+            Swal.fire({
+              title: 'Email sent. I will contact you shortly',
+              showClass: {
+                popup: 'animate__animated animate__fadeInDown'
+              },
+              hideClass: {
+                popup: 'animate__animated animate__fadeOutUp'
+              }
+            })
             resetForm({values:''})
             setLoading(false)
           })
