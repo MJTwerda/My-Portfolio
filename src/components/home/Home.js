@@ -27,15 +27,15 @@ export default function Home() {
   )
 };
 
-const makeStyles = (generalTheme) => ({
+const makeStyles = (currentTheme) => ({
   container: {
     display: 'flex',
-    backgroundColor: generalTheme === 'light' ? 'whitesmoke' : 'black'
+    backgroundColor: currentTheme === 'light' ? 'whitesmoke' : 'black'
   },
   bodyContainer: {
     paddingLeft: '165px',
     paddingTop: '40px',
     boxSizing: 'border-box',
-    backgroundColor: generalTheme === 'light' ? 'whitesmoke' : 'black'
+    backgroundColor: currentTheme === 'light' ? 'whitesmoke' : 'black'
   }
 })

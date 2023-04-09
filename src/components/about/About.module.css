@@ -3,40 +3,6 @@
     font-weight: 400;
 } 
 
-.containerCard {
-    position: relative;
-    transition: all 1s ease;
-    transform: perspective(600px);
-    transform-origin: 100% 50%;
-    transform-style: preserve-3d;
-}
-.containerCard:active {
-    transform: perspective(600px) rotateY(-180deg) translateX(100%);
-}
-
-.cardFront {
-    backface-visibility: hidden;
-    width: 50%;
-    height: 80%;
-    margin-top: 10px;
-}
-.cardBack {
-    width: 50%;
-    height: 80%;
-    backface-visibility: hidden;
-    transform: rotateY(-180deg);
-    margin-top: 10px;
-}
-
-.btn {
-    width: 30%;
-    height: 30px;
-    padding: 20px;
-}
-.btn:hover {
-    cursor: pointer;
-}
-
 /* ------------ DARK MODE --------------- */
 
 .titleDark {
