@@ -7,6 +7,6 @@ export const socialData = [
     {
         platform: 'GitHub',
         logo: require('../utils/icons/socialIcons/github-logos1.png').default,
-        url: 'https://github.com/dronM27'
+        url: 'https://github.com/MJTwerda'
     },
 ]
