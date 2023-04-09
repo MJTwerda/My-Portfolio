@@ -3,7 +3,7 @@
 }
 
 .title {
-    font-family: BioRhyme;
+    font-family: BioRhyme, serif, roboto;
     font-weight: 200;
 }
 
@@ -19,19 +19,10 @@
     margin-right: 20px;
 }
 
-/* ---------- DARCK MODE --------- */
+/* ---------- DARK MODE --------- */
 
 .titleDark {
-    font-family: BioRhyme;
+    font-family: BioRhyme, serif, roboto;
     font-weight: 200;
     color: whitesmoke;
 }
-
-/* @media screen and (max-width: 670px) {
-    .general {
-        width: 100%;
-        display: flex;
-        justify-content: center;
-    }
-    
-} */

@@ -2,12 +2,14 @@ import React from 'react';
 import { socialData } from '../data/SocialData';
 
 import style from './Social.module.css';
+import useTheme from '../../hooks/useTheme';
 
-export default function Social({mode}) {
+export default function Social() {
+    const { theme } = useTheme();
 
     return(
         <div id='social' className={style.container}>
-            <h2 className={mode === 'light' ? style.title : style.titleDark}>
+            <h2 className={theme === 'light' ? style.title : style.titleDark}>
                 Mi Mundo Social: 
             </h2>
             <ul className={style.general}>

@@ -4,7 +4,7 @@ import Social from '../social/Social';
 import image from '../../utils/images/soloNotebook.png';
 import style from './Avatar.module.css';
 
-export default function Avatar({mode}) {
+export default function Avatar() {
 
     return (
         <div className={style.general} id='avatar'>
@@ -12,7 +12,7 @@ export default function Avatar({mode}) {
                 <img src={image} alt='' className={style.img} />
             </div>
             <div className={style.socialContainer}>
-                <Social mode={mode}/>
+                <Social />
             </div>
         </div>
     )

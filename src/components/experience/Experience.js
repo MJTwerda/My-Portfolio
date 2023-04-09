@@ -20,15 +20,17 @@ export default function Experience({mode}) {
                                     {exp.date}
                                 </p>
                                 <p className={mode === 'light' ? style.descriptions : style.desDark}>
-                                Participación de un equipo de desarrollo ágil con sprints de una semana presentando a un Product Owner avances sobre el desarrollo de los componentes de Administradores para seleccionar, y ordenar candidatos.<br />
+                                Participación de un equipo de desarrollo ágil con sprints de una semana presentando a 
+                                un Product Owner avances sobre el desarrollo de los componentes de Administradores para 
+                                seleccionar, y ordenar candidatos.<br />
+                                </p>
                                 {exp.description?.map((func, i) => {
                                     return (
-                                        <p key={i} className={style.itemsDescriptions}>
+                                        <p key={func} className={style.itemsDescriptions}>
                                             🔦 {func}
                                         </p>
                                     )}
                                 )}
-                                </p>
                                 
                             </div>
                         </div>
