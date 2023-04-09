@@ -1,6 +1,6 @@
 export const experience = [
     {
-        company: require('../utils/images/logoTECHOceleste.png').default,
+        company: require('../../utils/images/logoTECHOceleste.png').default,
         url: 'https://www.youtube.com/watch?v=GMjGTJrUBJo&t=5s&ab_channel=LuizferColorado',
         tecnologies: ['TypeScript', 'React', 'PostgreSQL', 'Sequelize', 'Swagger', 'GitHub', 'Formik', 'MaterialUI', 'Material-Table'],
         date: '29/08/21 - 24/09/21 - Pasantía Estudiantil',

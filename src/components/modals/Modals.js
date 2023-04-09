@@ -73,10 +73,14 @@ export function MultipleChoice() {
                     <h4>Incorrectas: {incorrectCount}</h4>
                     {questions?.map((ques, index) => {
                         return (
-                            <div id={`que-${index}`}>
+                            <div id={`que-${index}`} key={index}>
                                 <h3>{ques.question}</h3>
                                 {ques.options?.map((option) => (
-                                    <Button id={option} value={option} color="secondary"
+                                    <Button 
+                                        key={option}
+                                        id={option} 
+                                        value={option} 
+                                        color="secondary"
                                         style={{'marginTop': '8px', 'marginRight': '5px'}}
                                         variant={chosenCorrect.includes(option) ? "contained" : "outlined"}
                                         onClick={() => handleClick(option)}

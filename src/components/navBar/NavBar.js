@@ -12,7 +12,7 @@ export default function NavBar() {
                     <div className={style.icons}>
                             <Icon path={mdiAlphaIBox} 
                                 size={1.2}
-                                />
+                            />
                     </div>
                         <h3 className={style.title}>Info</h3>
                 </a>
@@ -23,7 +23,7 @@ export default function NavBar() {
                     <div className={style.icons}>
                         <Icon path={mdiHeadCogOutline}
                             size={1.2}
-                            />
+                        />
                     </div>
                         <h3 className={style.title}>Habilidades</h3>
                 </a>       
@@ -34,7 +34,7 @@ export default function NavBar() {
                     <div className={style.icons}>
                         <Icon path={mdiMovieOpenSettings} 
                             size={1.2}
-                            />
+                        />
                     </div>
                         <h3 className={style.title}>Proyectos</h3>
                 </a>
@@ -45,7 +45,7 @@ export default function NavBar() {
                     <div className={style.icons}>
                         <Icon path={mdiCodeJson} 
                             size={1.2}
-                            />
+                        />
                     </div>
                         <h3 className={style.title}>Experiencia</h3>
                 </a>
@@ -56,7 +56,7 @@ export default function NavBar() {
                     <div className={style.icons}>
                         <Icon path={mdiForum}
                             size={1.2}
-                            />
+                        />
                     </div>
                         <h3 className={style.title}>Contactame</h3>
                 </a>       

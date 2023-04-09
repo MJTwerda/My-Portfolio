@@ -1,77 +1,7 @@
 .title {
     font-family: BioRhyme, serif;
     font-weight: 400;
-    color: black;
 } 
-
-.containerCard {
-    position: relative;
-    transition: all 1s ease;
-    transform: perspective(600px);
-    transform-origin: 100% 50%;
-    transform-style: preserve-3d;
-}
-.containerCard:active {
-    transform: perspective(600px) rotateY(-180deg) translateX(100%);
-}
-
-.cardFront {
-    backface-visibility: hidden;
-    width: 50%;
-    height: 80%;
-    margin-top: 10px;
-}
-.cardBack {
-    width: 50%;
-    height: 80%;
-    backface-visibility: hidden;
-    transform: rotateY(-180deg);
-    margin-top: 10px;
-}
-
-.btn {
-    width: 30%;
-    height: 30px;
-    padding: 20px;
-}
-.btn:hover {
-    cursor: pointer;
-}
-
-/* .containerCard {
-    position: relative;
-}
-
-.cardFront {
-    display: inline;
-    width: 50%;
-    height: 80%;
-    margin-top: 10px;
-}
-.cardFront:checked {
-    display: none;
-}
-.cardBack {
-    width: 50%;
-    height: 80%;
-    display: none;
-    transform: rotateY(-180deg);
-    margin-top: 10px;
-}
-.cardBack:checked {
-    display: inline;
-} */
-
-/* .card {
-    position: relative;
-    border: solid;
-    margin: 10px;
-    transition: all 0.5s ease;
-}
-.card:hover {
-    transform: rotateY(89deg);
-    perspective: 30px;
-} */
 
 /* ------------ DARK MODE --------------- */
 

@@ -1,31 +1,41 @@
-import React, {useState} from "react";
+import React from "react";
 import NavBar from "../navBar/NavBar";
 import Body from "../body/Body";
 import Button from "../buttonMod/Button";
 
 import style from './Home.module.css';
+import useTheme from '../../hooks/useTheme';
 
 export default function Home() {
-    const [background, setBackground] = useState('light');
+    const { theme, changeTheme } = useTheme();
+    const styles = makeStyles(theme);
 
-    function changeToDark() {
-        setBackground('dark');
-    }
-    function changeToLight() {
-        setBackground('light');
-    }
+  return(
+    <div style={styles.container}>
+      <div className={style.nav}>
+        <NavBar />
+      </div>
 
-    return(
-        <div className={background === 'light' ? style.container : style.containerDark}>
-        <div className={style.nav}>
-            <NavBar />
+      <div style={styles.bodyContainer}>
+        <div className={style.btnGral}>
+          <Button changeTheme={changeTheme} />
         </div>
-        <div className={background === 'light' ? style.body : style.bodyDark}>
-            <div className={style.btnGral}>
-              <Button setToLight={changeToLight} setToDark={changeToDark}/>
-            </div>
-            <Body mode={background}/>
-        </div>
+
+        <Body mode={theme}/>
+      </div>
     </div>
-    )
-}
+  )
+};
+
+const makeStyles = (currentTheme) => ({
+  container: {
+    display: 'flex',
+    backgroundColor: currentTheme === 'light' ? 'whitesmoke' : 'black'
+  },
+  bodyContainer: {
+    paddingLeft: '165px',
+    paddingTop: '40px',
+    boxSizing: 'border-box',
+    backgroundColor: currentTheme === 'light' ? 'whitesmoke' : 'black'
+  }
+})
