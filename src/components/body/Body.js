@@ -12,7 +12,7 @@ export default function Body({mode}) {
         <div>
             <About mode={mode} />
                 <Divisor mode={mode}/>
-            <Avatar mode={mode} />
+            <Avatar />
                 <Divisor mode={mode}/>
             <Experience mode={mode} />
                 <Divisor mode={mode}/>

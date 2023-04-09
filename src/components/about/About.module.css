@@ -1,12 +1,12 @@
 .title {
-    font-family: BioRhyme, serif;
+    font-family: BioRhyme, serif, roboto;
     font-weight: 400;
 } 
 
 /* ------------ DARK MODE --------------- */
 
 .titleDark {
-    font-family: BioRhyme, serif;
+    font-family: BioRhyme, serif, roboto;
     font-weight: 400;
     color: whitesmoke;
 } 

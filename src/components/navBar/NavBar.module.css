@@ -20,7 +20,7 @@
 .title {
     padding-left: 40px;
     line-height: 2px;
-    font-family: BioRhyme;
+    font-family: BioRhyme, serif, roboto;
     font-weight: 400;
     font-size: medium;
 }

@@ -8,15 +8,14 @@ import useTheme from '../../hooks/useTheme';
 
 export default function Home() {
     const { theme, changeTheme } = useTheme();
-    const styles = makeStyles(theme);
 
   return(
-    <div style={styles.container}>
+    <div className={theme === 'light' ? style.container : style.containerDark}>
       <div className={style.nav}>
         <NavBar />
       </div>
 
-      <div style={styles.bodyContainer}>
+      <div className={theme === 'light' ? style.bodyContainer : style.bodyContainerDark}>
         <div className={style.btnGral}>
           <Button changeTheme={changeTheme} />
         </div>
@@ -26,16 +25,3 @@ export default function Home() {
     </div>
   )
 };
-
-const makeStyles = (currentTheme) => ({
-  container: {
-    display: 'flex',
-    backgroundColor: currentTheme === 'light' ? 'whitesmoke' : 'black'
-  },
-  bodyContainer: {
-    paddingLeft: '165px',
-    paddingTop: '40px',
-    boxSizing: 'border-box',
-    backgroundColor: currentTheme === 'light' ? 'whitesmoke' : 'black'
-  }
-})
