@@ -5,10 +5,6 @@ import style from './ContactMe.module.css';
 
 export default function ContactMe({mode}) {
 
-    const setStyleToSocialImage = (social) => {
-        return social === 'GitHub' ? { width: 64, height: 64 } : { width: 60, height: 60 }
-    }
-
     return (
         <div id='contactMe'>
             <h2 className={mode === 'light' ? style.title: style.titleDark}>
@@ -22,7 +18,7 @@ export default function ContactMe({mode}) {
                                 <img 
                                     src={data.logo} 
                                     alt={data.platform} 
-                                    style={setStyleToSocialImage(data.platform)} 
+                                    style={{ width: 90, height: 90 }}
                                 />
                             </a> 
                         </li>
