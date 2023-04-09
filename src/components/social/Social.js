@@ -1,5 +1,5 @@
 import React from 'react';
-import {socialData} from '../data/SocialData';
+import { socialData } from '../data/SocialData';
 
 import style from './Social.module.css';
 
