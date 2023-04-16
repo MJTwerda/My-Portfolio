@@ -1,38 +1,54 @@
+import {
+    cssIcon,
+    htmlIcon,
+    javascriptIcon,
+    jestIcon,
+    muiIcon,
+    nodeJsIcon,
+    postgresqlIcon,
+    postmanIcon,
+    reactIcon,
+    reduxIcon,
+    sequelizeIcon,
+    swaggerIcon,
+    typescriptIcon,
+} from '../../constants/stackIcons';
+
 export const stack = [
     {
         type: 'Front-end',
         list: [
             {
                 name: 'JavaScript',
-                icon: require('../../utils/icons/javascript.svg').default,
+                icon: javascriptIcon,
             },
             {
                 name: 'React',
-                icon: require('../../utils/icons/react.svg').default,
+                icon: reactIcon,
             },
             {
                 name: 'Redux',
-                icon: require('../../utils/icons/redux.svg').default,
+                icon: reduxIcon,
             },
             {
                 name: 'Material UI',
-                icon: require('../../utils/icons/materialUI.svg').default
+                icon: muiIcon
             },
             {
                 name: 'TypeScript',
-                icon: require('../../utils/icons/typescript.svg').default,
+                icon: typescriptIcon
             },
             {
                 name: 'HTML5',
-                icon: require('../../utils/icons/html5.svg').default,
+                icon: htmlIcon
             },
             {
                 name: 'CSS3',
-                icon: require('../../utils/icons/css3.svg').default,
+                icon: cssIcon
             },
             {
                 name: 'Jest',
-                icon: require('../../utils/icons/jest.svg').default,
+                icon: jestIcon
             },
         ]
     },
@@ -41,23 +57,23 @@ export const stack = [
         list: [
             {
                 name: 'NodeJs',
-                icon: require('../../utils/icons/nodeJs.svg').default,
+                icon: nodeJsIcon
             },
             {
                 name: 'PostgreSQL',
-                icon: require('../../utils/icons/postgreSQL.svg').default,
+                icon: postgresqlIcon
             },
             {
                 name: 'Sequelize',
-                icon: require('../../utils/icons/sequelize.svg').default,
+                icon: sequelizeIcon
             },
             {
                 name: 'Postman',
-                icon: require('../../utils/icons/postman.svg').default,
+                icon: postmanIcon
             },
             {
                 name: 'Swagger',
-                icon: require('../../utils/icons/swagger.svg').default,
+                icon: swaggerIcon
             },
         ]
     },
