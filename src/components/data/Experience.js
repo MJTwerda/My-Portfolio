@@ -1,6 +1,8 @@
+import logoTECHOceleste from '../../utils/images/logoTECHOceleste.png';
+
 export const experience = [
     {
-        company: require('../../utils/images/logoTECHOceleste.png').default,
+        company: logoTECHOceleste,
         url: 'https://www.youtube.com/watch?v=GMjGTJrUBJo&t=5s&ab_channel=LuizferColorado',
         tecnologies: [
             'TypeScript', 
