@@ -12,16 +12,15 @@ import {
     sequelizeIcon,
     swaggerIcon,
     typescriptIcon,
+    angularIcon,
+    nextJsIcon,
+    nestJsIcon
 } from '../../constants/stackIcons';
 
 export const stack = [
     {
         type: 'Front-end',
         list: [
-            {
-                name: 'JavaScript',
-                icon: javascriptIcon,
-            },
             {
                 name: 'React',
                 icon: reactIcon,
@@ -31,8 +30,20 @@ export const stack = [
                 icon: reduxIcon,
             },
             {
+                name: 'NextJS',
+                icon: nextJsIcon
+            },
+            {
                 name: 'Material UI',
                 icon: muiIcon
+            },
+            {
+                name: 'Angular',
+                icon: angularIcon
+            },
+            {
+                name: 'JavaScript',
+                icon: javascriptIcon,
             },
             {
                 name: 'TypeScript',
@@ -62,6 +73,10 @@ export const stack = [
             {
                 name: 'PostgreSQL',
                 icon: postgresqlIcon
+            },
+            {
+                name: 'NestJS',
+                icon: nestJsIcon
             },
             {
                 name: 'Sequelize',
