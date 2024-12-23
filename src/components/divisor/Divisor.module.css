@@ -3,6 +3,7 @@
     border-radius: 15px;
     background: linear-gradient(to left, rgb(243, 243, 234) ,rgb(168, 245, 241), rgb(4, 250, 209) 70%, rgb(250, 184, 4) 100%);
     margin-bottom: 20px;
+    transition: background-color 1.5s ease;
 }
 
 /* -------- DARK MODE --------- */
@@ -11,4 +12,5 @@
     border-radius: 15px;
     background: linear-gradient(to left, rgb(14, 14, 14) ,rgb(168, 245, 241), rgb(4, 250, 209) 70%, rgb(250, 184, 4) 100%);
     margin-bottom: 20px;
+    transition: background-color 1.5s ease;
 }
