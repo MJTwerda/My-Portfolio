@@ -12,6 +12,9 @@ import stackReduxIcon from '../utils/icons/redux.svg';
 import stackSequelizeIcon from '../utils/icons/sequelize.svg';
 import stackSwaggerIcon from '../utils/icons/swagger.svg';
 import stackTypescriptIcon from '../utils/icons/typescript.svg';
+import stackAngularIcon from '../utils/icons/angular.svg';
+import stackNextJsIcon from '../utils/icons/nextjs2.svg';
+import stackNestJsIcon from '../utils/icons/nestJs.svg';
 
 export const cssIcon = stackCssIcon;
 export const expressIcon = stackExpressIcon;
@@ -27,3 +30,6 @@ export const reduxIcon = stackReduxIcon;
 export const sequelizeIcon = stackSequelizeIcon;
 export const swaggerIcon = stackSwaggerIcon;
 export const typescriptIcon = stackTypescriptIcon;
+export const angularIcon = stackAngularIcon;
+export const nextJsIcon = stackNextJsIcon;
+export const nestJsIcon = stackNestJsIcon;
